@@ -6,9 +6,9 @@ This project implements and compares three **numerical quadrature methods**:
 - **Simpson’s rule**  
 
 The goal is to approximate the integral:  
-$$
+```math
 \int_0^3 e^x \, dx = e^3 - 1 \approx 19.0855
-$$
+```
 
 ## Key Features
 - **Global Refinement**:  
