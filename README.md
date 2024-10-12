@@ -7,7 +7,7 @@ This project implements three composite quadrature methods: the trapezoidal rule
 \int_0^3 e^x \, dx = e^3 - 1 \approx 19.08553692.
 ```
 
-Each method employs a uniform interval size \( H_m = \frac{b - a}{m} \). The midpoint rule is further enhanced by a global uniform subinterval size refinement with a factor \( \alpha = \frac{1}{k} \), where \( \alpha = \frac{1}{3} \) for the composite midpoint rule. The performance and accuracy of each method are compared based on their results.
+Each method employs a uniform interval size. The midpoint and composite midpoint rules will be implemented using a global uniform subinterval size refinement. The performance and accuracy of each method are compared based on their results.
 
 ## Key Sections
 1. **Statement of the Problem**
